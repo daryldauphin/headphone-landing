@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css"; 
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+
+/*
+FEA83B Orange
+6066F2 lightblue
+B286F8 purple
+4C44C1 blue
+E6CDF9 light purple
+
+ */
+
+ .container {
+	 max-width: 1400px;
+	 margin: 0 auto;
+	 padding: 0 20px;
+ }
+
+ .container-fluid {
+	 margin: 0 5%;
+	 padding: 0 0px;
+
+ }
+ .box-shadow-down {
+	box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+ }
