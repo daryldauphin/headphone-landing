@@ -9,6 +9,7 @@
     /* background: #6066F2; */
     overflow: hidden;
     border-radius: 5px;
+    top: -100px;
 }
 #design-by .design-container .bg-container{
     position: relative;
@@ -64,7 +65,8 @@
     color: white;
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 14.5px;
+    vertical-align: top;
     
 }
 #design-by .design-container .info-section .info-list li .circle{
@@ -99,5 +101,38 @@ top: 7px;
     background: white;
     display: inline-block;
     float: left;
+    position: relative;
     
 }
+#design-by .design-container .icons-section .refresh-circle {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+#design-by .design-container .icons-section .refresh-circle .fas {
+    position: relative;
+    color: #FEA83B;
+    font-size: 2.5rem;
+    top: 20px;
+    left: 20px;
+}
+#design-by .design-container .icons-section .icon-box {
+    width: 50%;
+    height: 226px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #f4f5f7;
+    color: #6066F2;
+    font-size: 1.3rem;
+}
+#design-by .design-container .icons-section .icon-box .fas, #design-by .design-container .icons-section .icon-box .far {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 60px;
+}
+

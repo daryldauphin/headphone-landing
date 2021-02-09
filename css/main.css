@@ -3,6 +3,7 @@
 @import "landing-page/header.css";
 @import "landing-page/top-jumbo.css";
 @import "landing-page/design-by.css";
+@import "landing-page/color-collection.css";
 
 /*
 FEA83B Orange
@@ -25,6 +26,11 @@ E6CDF9 light purple
 
  }
  .box-shadow-down, .design-container {
+	box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
+ }
+ .box-shadow-center {
 	box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
 	-moz-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
