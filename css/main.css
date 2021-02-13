@@ -4,6 +4,9 @@
 @import "landing-page/top-jumbo.css";
 @import "landing-page/design-by.css";
 @import "landing-page/color-collection.css";
+@import "landing-page/blue-print.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
 
 /*
 FEA83B Orange
@@ -35,3 +38,13 @@ E6CDF9 light purple
 	-webkit-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
 	-moz-box-shadow: 1px 16px 39px -11px rgba(0,0,0,0.3);
  }
+
+@media only screen and (max-width: 1215px) {
+
+ }
+@media only screen and (max-width: 960px) {
+	 
+}
+@media only screen and (max-width: 767px) {
+	 
+}

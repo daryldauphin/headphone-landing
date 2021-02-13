@@ -1,6 +1,6 @@
 
 #color-collection {
-    padding: 0 0 100px;
+    padding: 0 0 170px;
   }
   #color-collection .container:after {
     content: "";
@@ -136,4 +136,12 @@ background: linear-gradient(143deg, rgba(238,202,174,1) 0%, rgba(177,205,214,1) 
     float: left;
     width: 20%;
   }
-  
+  @media only screen and (max-width: 1215px) {
+
+  }
+ @media only screen and (max-width: 960px) {
+    
+ }
+ @media only screen and (max-width: 767px) {
+    
+ }
