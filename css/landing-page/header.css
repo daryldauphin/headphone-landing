@@ -67,5 +67,14 @@ header .header-buttons .orange-btn{
     
 }
 @media only screen and (max-width: 767px) {
-    
+    header .header-buttons{
+        width: 100%;
+        padding-top: 50px;
+    }
+    header .menu{
+        display: inline-block;
+        float: left;
+        position: relative;
+        top: 30px;
+    }
 }

@@ -96,3 +96,23 @@ background: linear-gradient(143deg, rgba(177,205,214,1) 46%, rgba(158,157,222,1)
     margin-bottom: 15px;
 
 }
+@media only screen and (max-width: 1215px) {
+
+}
+@media only screen and (max-width: 1023px) {
+  
+}
+@media only screen and (max-width: 767px) {
+    #blue-print {
+        padding: 100px 0;
+    }
+    #blue-print img {
+    display: none;
+    }
+    #blue-print .left-side{
+        width: 100%;
+    }
+    #blue-print .right-side{
+        width: 100%;
+    }
+}
